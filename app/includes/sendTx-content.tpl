@@ -4,7 +4,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0x5272a9a6611cAfca1B08896179699A74Fc4a5030" var-name="tx.to"></address-field>
     </div>
 
     <!-- Amount to Send -->
@@ -45,8 +45,8 @@
                placeholder="21000"
                ng-model="tx.gasLimit"
                ng-change="gasLimitChanged=true"
-               ng-disabled="tx.readOnly || checkTxReadOnly"
-               ng-class="Validator.isPositiveNumber(tx.gasLimit) ? 'is-valid' : 'is-invalid'" />
+               ng-disabled="tx.readOnly || checkTxReadOnly" />
+               <!--ng-class="Validator.isPositiveNumber(tx.gasLimit) ? 'is-valid' : 'is-invalid'" /> -->
       </div>
     </div>
     <!-- / Gas Limit -->
@@ -67,10 +67,10 @@
           <label translate="TRANS_data"> Data: </label>
           <input type="text"
                  class="form-control"
-                 placeholder="0x6d79657468657277616c6c65742e636f6d20697320746865206265737421"
+                 placeholder="0x5F347ffCE79433477c64095f085dA5cCe025Aa34"
                  ng-model="tx.data"
                  ng-disabled="tx.readOnly || checkTxReadOnly"
-                 ng-class="Validator.isValidHex(tx.data) ? 'is-valid' : 'is-invalid'"/>
+                 ng-class="Validator.isValidHex(tx.data) ? 'is-valid' : 'is-invalid'" />
         </div>
       </div>
       <!-- / Data -->

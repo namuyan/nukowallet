@@ -82,7 +82,7 @@ NAV_InteractContract        : '契約を操作 ',
 NAV_Multisig                : '多重署名 ',
 NAV_MyWallets               : '自分のお財布 ',
 NAV_Offline                 : 'オフライン送出 ',
-NAV_SendEther               : 'Ether/トークンの送出 ',
+NAV_SendEther               : 'Nuko/トークンの送出 ',
 NAV_SendTokens              : 'トークン送出 ',
 NAV_SignMsg                 : 'メッセージ署名 ',
 NAV_Swap                    : '通貨の両替 ',
@@ -91,7 +91,7 @@ NAV_YourWallets             : '自分のお財布 ',
 
 /* General */
 x_Access                    : 'アクセス ',
-x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. これは自分のアカウント番号と公開鍵になります。ETHを送信するために必要な情報です。アイコンは自分のアドレスを識別するものです。 ',
+x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Nuko or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. これは自分のアカウント番号と公開鍵になります。Nuko を送信するために必要な情報です。アイコンは自分のアドレスを識別するものです。 ',
 x_Address                   : '自分のアドレス ',
 x_Cancel                    : '取り消す ',
 x_CSV                       : 'CSV ファイル (未暗号化) ',
@@ -123,7 +123,7 @@ MEW_Tagline                 : 'オープンソース JavaScript クライアン�
 CX_Tagline                  : 'オープンソース JavaScript クライアントサイド Etherお財布 Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'イサーリアムお財布の作成とトランザクション実行のためのオープンソース、javascript、 クライアントサイドツール。 ',
+FOOTER_1                    : 'NUKOお財布の作成とトランザクション実行のためのオープンソース、javascript、 クライアントサイドツール。 ',
 FOOTER_1b                   : '制作 ',
 FOOTER_2                    : '投げ銭に感謝致します！: ',
 FOOTER_3                    : 'クライアントサイドお財布制作 ',
@@ -136,7 +136,7 @@ sidebar_AccountBal          : 'アカウント残高 ',
 sidebar_TokenBal            : 'トークン残高 ',
 sidebar_Equiv               : '等価 ',
 sidebar_TransHistory        : 'トランザクション履歴 ',
-sidebar_donation            : 'MyEtherWalletは、プライバシーとセキュリティのための無料のオープンソースサービスです。　寄付が増えることによって、新機能やフィードバックの反映を行い、よりユーザーの皆様のご希望に沿った制作の時間を増やす事が可能になります。私たちは、たった二人で世界を変えようとしています。お手伝いいただけますか? ',
+sidebar_donation            : 'MyEtherWalletは、プライバシーとセキュリティのための無料のオープンソースサービスです。　寄付が増えることによって、新機能やフィードバックの反映を行い、よりユーザーの皆様のご希望に沿った制作の時間を増やす事が可能になります。お手伝いいただけますか? ',
 sidebar_donate              : '寄付する ',
 sidebar_thanks              : '感謝します!!! ',
 
@@ -339,7 +339,7 @@ MSG_info2                   : '他人に使われないようにするため、�
 MSG_info3                   : '異なった目的で使用されないようにするために、利用目的を入れてください。 ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。[import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)する時に必要です。残高をチェックするためには、[etherscan.io](http://etherscan.io/)のようなブロックチェーンエクスプローラーサービスを使う事をおすすめします。 ',
+VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。[import your account into Gnokenium/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)する時に必要です。残高をチェックするためには、[explorer.nekonium.org](http://explorer.nekonium.org)のようなブロックチェーンエクスプローラーサービスを使う事をおすすめします。 ',
 VIEWWALLET_Subtitle_Short   : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。 ',
 VIEWWALLET_SuccessMsg       : '成功しました! お財布の詳細は以下の通りです。 ',
 

@@ -66,43 +66,6 @@
       <br>
     </section>
 
-    <section class="block__help">
-      <h2>Ledger / TREZOR:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">Ledger or TREZOR</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-        <span translate="GEN_Help_3">Your device * is * your wallet.</span>
-      </li></ul>
-
-      <h2>Jaxx / Metamask:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Mnemonic">Mnemonic Phrase</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-      </li></ul>
-
-      <h2>Mist / Geth / Parity:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Keystore2">Keystore File (UTC / JSON)</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-      </li></ul>
-
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><strong>
-          <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-create-a-new-wallet" target="_blank" rel="noopener" translate="GEN_Help_5">
-            How to Create a Wallet
-          </a>
-        </strong></li>
-        <li><strong>
-          <a href="https://myetherwallet.groovehq.com/knowledge_base/categories/getting-started-443" target="_blank" rel="noopener" translate="GEN_Help_6">
-            Getting Started
-          </a></strong></li>
-      </ul>
-    </section>
-
   </article>
 
 
@@ -137,24 +100,6 @@
 
     </section>
 
-    <section class="block__help">
-      <h2 translate="GEN_Help_8"> Not Downloading a File? </h2>
-      <ul>
-        <li translate="GEN_Help_9">  Try using Google Chrome </li>
-        <li translate="GEN_Help_10"> Right click &amp; save file as. Filename:</li>
-        <input value="{{encFileName}}" class="form-control input-sm" />
-      </ul>
-
-      <h2 translate="GEN_Help_11">Don't open this file on your computer</h2>
-      <ul><li translate="GEN_Help_12">Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity &amp; other wallet clients.)</li></ul>
-
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet" target="_blank" rel="noopener"><strong translate="GEN_Help_13">How to Back Up Your Keystore File</strong></a></li>
-        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-are-the-different-formats-of-a-private-key" target="_blank" rel="noopener"><strong translate="GEN_Help_14">What are these Different Formats?</a></strong></li>
-      </ul>
-
-    </section>
 
   </article>
 
@@ -188,33 +133,6 @@
       <a class="btn btn-default btn-sm" ng-click="getAddress()">
         <span translate="GEN_Label_3"> Save your Address </span> →
       </a>
-
-    </section>
-
-    <section class="block__help">
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet" target="_blank" rel="noopener">
-          <strong translate="HELP_2a_Title">How to Save & Backup Your Wallet.</strong>
-        </a></li>
-        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">
-          <strong translate="GEN_Help_15">Preventing loss &amp; theft of your funds.</strong>
-        </a></li>
-        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-are-the-different-formats-of-a-private-key" target="_blank" rel="noopener">
-          <strong translate="GEN_Help_16">What are these Different Formats?</strong>
-        </a></li>
-      </ul>
-
-      <h2 translate="GEN_Help_17"> Why Should I? </h2>
-      <ul>
-        <li translate="GEN_Help_18"> To have a secondary backup. </li>
-        <li translate="GEN_Help_19"> In case you ever forget your password. </li>
-        <li>
-          <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet" target="_blank" rel="noopener" translate="GEN_Help_20">Cold Storage</a>
-        </li>
-      </ul>
-
-      <h2 translate="x_PrintDesc"></h2>
 
     </section>
 
@@ -333,7 +251,7 @@
       </div>
 
 
-      <textarea class="form-control" ng-model="signMsg.message" placeholder="This is user kvhnuke on reddit. The purpose of this message is to prove that 0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8 is my address." rows="5"></textarea>
+      <textarea class="form-control" ng-model="signMsg.message" placeholder="This is user kvhnuke on reddit. The purpose of this message is to prove that 0x5272a9a6611cAfca1B08896179699A74Fc4a5030 is my address." rows="5"></textarea>
 
       <!-- Date -->
       <div class="account-help-icon">
@@ -397,7 +315,7 @@
 
   <div data-ng-repeat="alert in notifier.alerts">
   <div class="alert popup alert-{{alert.type}} animated-show-hide"
-       style="bottom: {{85*$index}}px; z-index: {{999+$index}};">
+       style="bottom: {{40*$index}}px; z-index: {{999+$index}};">
     <div class="container">
       <div class='alert-message' ng-bind-html="alert.message"></div>
     </div>
@@ -497,13 +415,13 @@
 
         <p class="small"><strong>Be safe &amp; secure:</strong> <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener"> We highly recommend that you read our guide on How to Prevent Loss &amp; Theft for some recommendations on how to be proactive about your security.</a></p>
 
-        <p class="small"><strong>Always backup your keys: </strong> MyEtherWallet.com &amp; MyEtherWallet CX are not "web wallets". You do not create an account or give us your funds to hold onto. No data leaves your computer / your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
+        <p class="small"><strong>Always backup your keys: </strong> NukoWallet.com is not "web wallets". You do not create an account or give us your funds to hold onto. No data leaves your computer / your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
 
-        <p class="small"><strong>We are not responsible for any loss: </strong> Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested &amp; tens of thousands of wallets have been successfully created by people all over the globe, there is always the possibility something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing to lose, and please be careful.</p>
+        <p class="small"><strong>We are not responsible for any loss: </strong> Nekonium, Ethereum, NukoWallet.com & MyEtherWallet.com and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested &amp; tens of thousands of wallets have been successfully created by people all over the globe, there is always the possibility something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing to lose, and please be careful.</p>
 
-        <p class="small"><strong> Translations of MyEtherWallet: </strong> The community has done an amazing job translating MyEtherWallet into a variety of languages. However, MyEtherWallet can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
+        <p class="small"><strong> Translations of NukoWallet: </strong> The community has done an amazing job translating NukoWallet into a variety of languages. However, NukoWallet can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
 
-        <p class="small"><strong>MIT License</strong> Copyright &copy; 2015-2017 MyEtherWallet LLC</p>
+        <p class="small"><strong>MIT License</strong> Copyright &copy; 2015-2017 MyEtherWallet LLC &copy; 2017 NukoWallet</p>
 
         <p class="small">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 

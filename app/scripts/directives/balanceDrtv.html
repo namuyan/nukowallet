@@ -20,7 +20,7 @@
       </li>
     </ul>
   </div>
-
+ <!-- Disable for now
   <div class="block">
     <section class="token-balances">
       <h5 translate="sidebar_TokenBal">Token Balances:</h5>
@@ -69,21 +69,21 @@
         <div ng-bind-html="validateLocalToken"></div>
       </div>
     </section>
-  </div>
+  </div> -->
 
   <div class="block">
     <h5 translate="sidebar_TransHistory"> Transaction History: </h5>
     <ul class="account-info">
       <li ng-show="ajaxReq.type != 'CUS'">
         <a href="{{ajaxReq.blockExplorerAddr.replace('[[address]]', wallet.getAddressString())}}" target="_blank" rel="noopener">
-          {{ajaxReq.type}} ({{ajaxReq.blockExplorerTX.replace('/tx/[[txHash]]', '')}})
+          {{ajaxReq.type}} (Nekonium.github.io)
         </a>
       </li>
-      <li>
-        <a href="https://ethplorer.io/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">
+      <!--<li>
+        <a href="{{wallet.getAddressString()}}" target="_blank" rel="noopener">
           Tokens (Ethplorer.io)
         </a>
-      </li>
+      </li>-->
     </ul>
   </div>
 

@@ -10,7 +10,7 @@
   <section class="text-center" ng-hide="objENS.owner != wallet.getAddressString()">
     <div class="form-group" style="margin: 2em auto;">
       <h5> Enter the address you would like this name to resolve to: </h5>
-      <input ng-model="newResolvedAddress" class="form-control" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
+      <input ng-model="newResolvedAddress" class="form-control" placeholder="0x5272a9a6611cAfca1B08896179699A74Fc4a5030" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
     </div>
 
     <div class="form-group" style="margin: 2em auto;" ng-hide="1===1 || objENS.owner != wallet.getAddressString()">

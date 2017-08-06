@@ -29,10 +29,10 @@ module.exports = [
 },
 {
   // DCORP
-  to:         '0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8',
+  to:         '0x5272a9a6611cAfca1B08896179699A74Fc4a5030',
   gasLimit:   21000,
   data:       '',
-  msg:        'Thank you for your donation! TO THE MOON! 🌝'
+  msg:        'Thank you for your donation! *:･ﾟ✧(=✪ ᆺ ✪=)*:･ﾟ'
 },
 {
   // District0x

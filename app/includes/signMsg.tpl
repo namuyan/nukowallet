@@ -21,7 +21,7 @@
       </div>
 
 
-      <textarea class="form-control" ng-model="signMsg.message" placeholder="This is user kvhnuke on reddit. The purpose of this message is to prove that 0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8 is my address." rows="5"></textarea>
+      <textarea class="form-control" ng-model="signMsg.message" placeholder="This is user kvhnuke on reddit. The purpose of this message is to prove that 0x5272a9a6611cAfca1B08896179699A74Fc4a5030 is my address." rows="5"></textarea>
 
       <!-- Date -->
       <div class="account-help-icon">

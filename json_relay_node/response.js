@@ -15,19 +15,14 @@ var clientConfigs = {
 	}
 };
 Response.client = new rpc.Client({
-	port: 8545,
-	host: nodeInfo.node_ip,
+	port: 8293,
+	host: "10.0.0.8",
 	path: '/',
 	strict: true
 });
-Response.clientClassic = new rpc.Client({
-	port: 8545,
-	host: nodeInfo.node_classic_ip,
-	path: '/',
-	strict: true
-});
+
 Response.getResponse = function(method, data, isClassic, callback) {
-	var client = isClassic ? "clientClassic" : "client";
+	var client =  "client";
 	var timer = setInterval(function() {
 		if (clientConfigs[client].conns < clientConfigs[client].maxConns) {
 			clearInterval(timer);

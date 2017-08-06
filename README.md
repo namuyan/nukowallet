@@ -29,7 +29,7 @@
 - [kvhnuke (founder) reddit: https://www.reddit.com/user/kvhnuke/](https://www.reddit.com/user/kvhnuke/)
 - [jordan (cmo) reddit: https://www.reddit.com/user/trogdortb001](https://www.reddit.com/user/trogdortb001)
 - [myetherwallet reddit user: https://www.reddit.com/user/myetherwallet](https://www.reddit.com/user/myetherwallet)
--  MEW ETH Donation Address: 0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8 (mewtopia.eth)
+-  MEW ETH Donation Address: 0x3C64cBe3D9D27C63C477C093529E6526b01b434E (mewtopia.eth)
 -  MEW BTC Donation Address: 1MEWT2SGbqtz6mPCgFcnea8XmWV5Z4Wc6
 
 
@@ -59,8 +59,8 @@
     - tokenSymbol=[ARC | ICN | MKR | ....]
     - gasLimit=[number] OR gas=[number]
     - data=[hex data]
-    - Example 1: https://www.myetherwallet.com/?to=0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8&value=1&tokenSymbol=REP&gaslimit=50000#send-transaction
-    - Example 2: https://www.myetherwallet.com/?to=0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8&value=1&gaslimit=23000&data=0x5468616e6b20796f752c204d455720322e30#send-transaction
+    - Example 1: https://www.myetherwallet.com/?to=0x3C64cBe3D9D27C63C477C093529E6526b01b434E&value=1&tokenSymbol=REP&gaslimit=50000#send-transaction
+    - Example 2: https://www.myetherwallet.com/?to=0x3C64cBe3D9D27C63C477C093529E6526b01b434E&value=1&gaslimit=23000&data=0x5468616e6b20796f752c204d455720322e30#send-transaction
 
 
 
